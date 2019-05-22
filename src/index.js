@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import MenuLink from './componts/MenuLink/MenuLink';
 import App from './componts/App/App';
 import Home from "./componts/Home/Home";
-// let Home = require("my-loader!./componts/Home/Home");
-// let App = require("my-loader!./componts/Home/App");
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
