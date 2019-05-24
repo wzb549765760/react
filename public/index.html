@@ -17,6 +17,24 @@
   </head>
   <body>
     <div id="root"></div>
+    <!--<script>
+        setTimeout(function() {
+            (function(doc, win) { //文字初始化
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function() {
+                        var clientWidth = docEl.clientWidth;
+                        if(!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+                    };
+                // Abort if browser does not support addEventListener
+                if(!doc.addEventListener) return;
+                recalc();
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document, window);
+        }, 50)
+    </script>-->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
