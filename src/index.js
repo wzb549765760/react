@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import MenuLink from './componts/MenuLink/MenuLink';
 import RooterIndex from "./route/index"
-import { HashRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 ReactDOM.render(
